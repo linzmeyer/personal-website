@@ -5,30 +5,22 @@ import {
   Redirect,
   Switch,
 } from 'react-router-dom';
-
 import {connect} from 'react-redux';
-
-import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
-
-import ProtectedRoute from '../ProtectedRoute/ProtectedRoute'
-
+// import ProtectedRoute from '../ProtectedRoute/ProtectedRoute'
 import About from '../../Views/About/About';
 import Home from '../../Views/Home/Home';
-import InfoPage from '../InfoPage/InfoPage';
-
 import './App.css';
 
 class App extends Component {
-  componentDidMount () {
-    this.props.dispatch({type: 'FETCH_USER'})
-  }
+  // componentDidMount () {
+  //   this.props.dispatch({type: 'FETCH_USER'})
+  // }
 
   render() {
     return (
       <Router>
         <div>
-          <Nav />
           <Switch>
             {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
             <Redirect exact from="/" to="/home" />

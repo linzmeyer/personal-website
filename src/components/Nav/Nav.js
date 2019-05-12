@@ -1,45 +1,23 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { connect } from 'react-redux';
-import LogOutButton from '../LogOutButton/LogOutButton';
-import './Nav.css';
+import React, {Component} from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import picture from '../../img/profile-pic.jpeg';
 
-const Nav = (props) => (
-  <div className="nav">
-    <Link to="/home">
-      <h2 className="nav-title">Prime Solo Project</h2>
-    </Link>
-    <div className="nav-right">
-      <Link className="nav-link" to="/home">
-        {/* Show this link if they are logged in or not,
-        but call this link 'Home' if they are logged in,
-        and call this link 'Login / Register' if they are not */}
-        {props.user.id ? 'Home' : 'Login / Register'}
-      </Link>
-      {/* Show the link to the info page and the logout button if the user is logged in */}
-      {props.user.id && (
-        <>
-          <Link className="nav-link" to="/info">
-            Info Page
-          </Link>
-          <LogOutButton className="nav-link"/>
-        </>
-      )}
-      {/* Always show this link since the about page is not protected */}
-      <Link className="nav-link" to="/about">
-        About
-      </Link>
-    </div>
-  </div>
-);
+class Nav extends Component {
 
-// Instead of taking everything from state, we just want the user
-// object to determine if they are logged in
-// if they are logged in, we show them a few more links 
-// if you wanted you could write this code like this:
-// const mapStateToProps = ({ user }) => ({ user });
-const mapStateToProps = state => ({
-  user: state.user,
-});
+  render() {
+    return (
+      <nav className="main-nav">
+        <img src={picture} alt="profile picture" className="nav-pic" ></img>
+        <ul>
+          <li><a href="#"><FontAwesomeIcon icon="home" /> Home</a></li>
+          <li><a href="#"><FontAwesomeIcon icon="info-circle" /> About</a></li>
+          <li><a href="#"><FontAwesomeIcon icon="people-carry" /> Services</a></li>
+          <li><a href="#"><FontAwesomeIcon icon={["far", "address-book"]} /> Contact</a></li>
+        </ul>
+      </nav>
+    );
+  }
+}
 
-export default connect(mapStateToProps)(Nav);
+export default (Nav);
+

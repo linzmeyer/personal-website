@@ -15,15 +15,21 @@ import {
   faCog,
   faCopyright,
   faCircle,
+  faFire,
   faGlobe,
   faHome,
   faInfoCircle,
   faPeopleCarry,
+  faSlidersH,
   faStroopwafel,
   faUsers,
 } from '@fortawesome/free-solid-svg-icons';
 
-import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
+import {
+  faAddressBook,
+  faCalendarAlt,
+  faHeart,
+} from '@fortawesome/free-regular-svg-icons';
 
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
@@ -33,16 +39,20 @@ icons.add(
   faAddressCard,
   faAnchor,
   fab,
+  faCalendarAlt,
   faChartPie,
   faCheckSquare, 
   faCoffee,
   faCog,
   faCopyright,
   faCircle,
+  faFire,
   faGlobe,
+  faHeart,
   faHome,
   faInfoCircle,
   faPeopleCarry,
+  faSlidersH,
   faStroopwafel,
   faUsers,
 );

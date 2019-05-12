@@ -9,6 +9,7 @@ import rootReducer from './redux/reducers'; // imports ./redux/reducers/index.js
 import rootSaga from './redux/sagas'; // imports ./redux/sagas/index.js
 
 import App from './components/App/App';
+import './icons/icons'; // import library of Font Awesome icons
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -31,9 +32,4 @@ const store = createStore(
 // rootSaga contains all of our other sagas
 sagaMiddleware.run(rootSaga);
 
-ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('react-root'),
-);
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('react-root'));
