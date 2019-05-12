@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import TestimonialHeader from '../../TestimonialHeader/TestimonialHeader';
+import TestimonialHeader from '../TestimonialHeader/TestimonialHeader';
 import { connect } from 'react-redux';
 
 // This component will render a testimonial based on which Tacit box the user clicks on.
@@ -64,9 +63,8 @@ class Testimonial extends Component {
     }
   }
   render() {
-    console.log(this.props);
     return (
-      <section className="info">
+      <section className="testimonial">
         <TestimonialHeader />
         <div>
           { this.renderTestimonial() }
