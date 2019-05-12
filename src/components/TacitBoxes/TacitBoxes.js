@@ -46,7 +46,9 @@ class TacitBoxes extends Component {
         >
           <FontAwesomeIcon icon="fire" size='4x' />
           <h3>Intrinsic Motivation</h3>
-          <p>I aspire to inspire, and I do it because I want to help.</p>
+          <li>I aspire to inspire.</li>
+          <li>I want to help.</li>
+          <li>I want to learn/grow.</li>
         </div>
 
         <div
