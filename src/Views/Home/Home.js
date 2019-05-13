@@ -9,7 +9,6 @@ class Home extends Component {
   render() {
     return (
       <div className="wrapper" >
-        {/* Navigation */}
         <Nav />
         <div>
           <div className="content-container" >
@@ -19,37 +18,18 @@ class Home extends Component {
                 <h1>Chase Linzmeyer</h1>
                 <p>Full stack web developer. Always learning, always growing.</p>
               </header>
-              {/* <div className="top-box top-box-a">
-                <h4>Membership</h4>
-                <p className="price">$199/mo</p>
-                <a href="" className="btn">Buy Now</a>
-              </div>
-              <div className="top-box top-box-b">
-                <h4>Pro Membership</h4>
-                <p className="price">$299/mo</p>
-                <a href="" className="btn">Buy Now</a>
-              </div> */}
             </section>
             
             <section className="bottom-container" >
-
               {/* { Boxes that describe my work ethic values } */}
               <TacitBoxes />
-
               {/* Testimonials change based on clicked TacitBoxes */}
               <Testimonial />
             </section>
-
-            {/* Portfolio */}
-            
-
-            {/* Footer */}
-
-            {/* Wrapper ends */}
-            </div>
-
+            {/* Portfolio (github API) */}
           </div>
         </div>
+      </div>
     );
   }
 }
