@@ -64,7 +64,7 @@ class Testimonial extends Component {
   }
   render() {
     return (
-      <section className="testimonial">
+      <section className="info">
         <TestimonialHeader />
         <div>
           { this.renderTestimonial() }
