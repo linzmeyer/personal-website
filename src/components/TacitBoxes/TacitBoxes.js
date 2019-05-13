@@ -44,7 +44,7 @@ class TacitBoxes extends Component {
           className="box"
           onClick={ () => this.setTestimonial( 'SET_TO_INTRINSIC_MOTIVATION', 'intrinsic-motivation' ) }
         >
-          <FontAwesomeIcon icon="fire" size='4x' />
+          <FontAwesomeIcon icon="seedling" size='4x' />
           <h3>Intrinsic Motivation</h3>
           <li>I aspire to inspire.</li>
           <li>I want to help.</li>
