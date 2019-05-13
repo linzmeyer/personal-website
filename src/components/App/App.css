@@ -52,12 +52,8 @@
     grid-gap: 20px;
   }
   
-  .footer {
-    
-  }
-
-  /* testimonial */
-  .testimonial {
+  /* info */
+  .info {
     background: var(--primary);
     border-radius: 20px;
     box-shadow: var(--shadow);
@@ -65,10 +61,10 @@
     grid-gap: 5px;
     padding: 2rem;
   }
-  .testimonial h2 {
+  .info h2 {
     color: green;
   }
-  
+
   .main-nav {
     display: grid;
     grid-area: nav;
@@ -122,11 +118,6 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat( auto-fit, minmax( 200px, 1fr ));
-  }
-  
-  .portfolio img {
-    width: 100%;
-    box-shadow: var(--shadow);
   }
   
   /* Showcase */
@@ -183,9 +174,6 @@
   /*  Top Container */
   .top-container {
     grid-gap: 20px;
-    /* grid-template-areas: 
-      'showcase showcase showcase top-box-a'
-      'showcase showcase showcase top-box-b'; */
   }
   
   .wrapper {
@@ -193,24 +181,30 @@
     grid-gap: 20px;
     grid-template-areas:
     'nav' 'content-container';
-    /* grid-template-columns: repeat( 2, minmax( 200px, 1fr )); */
-    /* grid-template-columns: minmax(100px, 288px) minmax(200px, 1fr); */
     grid-template-columns: minmax( 260px, 300px) minmax(200px, 1fr);
   }
 
   /*** Node Selectors *********************************************************/
   body {
     background: #ccc;
-    margin: 30px 50px;
+    font-size: 1.2rem;
     line-height: 1.4;
+    margin: 30px 50px;
   }
 
   footer {
-    margin-top: 2rem;
     background: var(--dark);
+    border-radius: 20px;
     color: var(--light);
-    text-align: center;
+    margin-top: 2rem;
     padding: 1rem;
+    text-align: center;
+  }
+  footer a {
+    color: var(--light);
+  }
+  footer a:hover {
+    color: yellow;
   }
 
   html {
