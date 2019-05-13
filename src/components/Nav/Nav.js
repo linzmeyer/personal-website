@@ -22,16 +22,25 @@ class Nav extends Component {
             </div>
           <ul>
             <li>
-              <Link to="/" ><FontAwesomeIcon icon="home" /> Home</Link>
+              <Link to="/about" >
+                <FontAwesomeIcon icon="info-circle" /> About
+              </Link>
             </li>
             <li>
-              <Link to="/" ><FontAwesomeIcon icon="info-circle" /> About</Link>
+              {/* need to use <a> because Link includes the local host. Open in new tab (chrome) */}
+              <a href="https://github.com/linzmeyer" target="_blank" rel="noopener noreferrer" >
+                <FontAwesomeIcon icon={['fab', 'github']} /> Github
+              </a>
             </li>
             <li>
-              <Link to="/" ><FontAwesomeIcon icon="people-carry" /> Github</Link>
+              <Link to="/contact" >
+                <FontAwesomeIcon icon={["far", "address-book"]} /> Contact
+              </Link>
             </li>
             <li>
-              <Link to="/" ><FontAwesomeIcon icon={["far", "address-book"]} /> Contact</Link>
+              <Link to="/availability" >
+                <FontAwesomeIcon icon={["far", "calendar-check"]} /> Availability
+              </Link>
             </li>
           </ul>
         </div>
