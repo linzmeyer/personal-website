@@ -10,9 +10,12 @@ import Footer from '../Footer/Footer';
 // import ProtectedRoute from '../ProtectedRoute/ProtectedRoute'
 import About from '../../Views/About/About';
 import Home from '../../Views/Home/Home';
+import Contact from '../../Views/Contact/Contact';
 import './App.css';
+import Availability from '../../Views/Availability/Availability';
 
 class App extends Component {
+
   // componentDidMount () {
   //   this.props.dispatch({type: 'FETCH_USER'})
   // }
@@ -27,13 +30,24 @@ class App extends Component {
             <Route
               exact
               path="/about"
-              component={About}
+              component={ About }
             />
             <Route
               exact
               path="/home"
-              component={Home}
+              component={ Home }
             />
+            <Route
+              exact
+              path="/contact"
+              component={ Contact }
+            />
+            <Route
+              exact
+              path="/availability"
+              component={ Availability }
+            />
+            
             {/* If none of the other routes matched, we will show a 404. */}
             <Route render={() => <h1>404</h1>} />
           </Switch>
@@ -43,4 +57,4 @@ class App extends Component {
   )}
 }
 
-export default connect()(App);
+export default connect()( App );
