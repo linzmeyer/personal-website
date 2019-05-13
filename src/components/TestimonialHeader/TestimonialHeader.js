@@ -9,7 +9,7 @@ class TestimonialHeader extends Component {
     else if ( this.props.testimonial === 'teamwork' ) { return 'people-carry'; }
     else if ( this.props.testimonial === 'adaptability' ) { return 'sliders-h'; }
     else if ( this.props.testimonial === 'communication' ) { return 'users'; }
-    else if ( this.props.testimonial === 'intrinsic-motivation' ) { return 'fire'; }
+    else if ( this.props.testimonial === 'intrinsic-motivation' ) { return 'seedling'; }
     else if ( this.props.testimonial === 'time-management' ) { return ['far', 'calendar-alt']; }
   }
 
