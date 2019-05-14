@@ -4,6 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class About extends Component {
 
+  renderExperience = () => {
+
+  }
+
   render() {
     return (
       <div className="wrapper" >
@@ -33,7 +37,7 @@ class About extends Component {
 
             <section className="info" >
               <h2>Technology Stack</h2>
-              <ul>
+              <ul className="tech-stack" >
                 <li><FontAwesomeIcon icon={['fab', 'react']} spin /> React / JSX</li>
                 <li><FontAwesomeIcon icon="globe" /> React-Redux</li>
                 <li><FontAwesomeIcon icon="retweet" /> Redux-Saga</li>
@@ -47,12 +51,30 @@ class About extends Component {
             </section>
 
             <section className="info" >
-              <h2>Background</h2>
+              <h2>Experience</h2>
+              <div className="experience" >
+                <ul>
+                  <li>
+                    Attended Prime Digital Academy's full immersion program for software engineers.
+                    <br></br>
+                    January 2019 - Present
+                  </li>
+                  <li>Engineering internship creating screen layouts for human-machine interface controllers.</li>
+                  <li>5 years experience building and wiring custom control panels for automated industrial machines.</li>
+                  <li>AAS Degree in Wind Energy Technology</li>
+                </ul>
+                { this.renderExperience() }
+              </div>
+
+            </section>
+
+            <section className="info" >
+              <h2>What I'm Looking For</h2>
               <ul>
-                <li>Attended Prime Digital Academy full immersion program for web developers. (20 weeks) </li>
-                <li>Engineering internship creating screen layouts for human-machine interface controllers.</li>
-                <li>5 years experience building and wiring custom control panels for automated industrial machines.</li>
-                <li>AAS Degree in Wind Energy Technology</li>
+                <li>Software development on the East side of the Twin Cities. (Woodbury, Maplewood, Oakdale, etc.)</li>
+                <li>Okay with working remotely.</li>
+                <li>A place with a good onboarding process.</li>
+                <li>Friendly coworkers</li>
               </ul>
             </section>
 

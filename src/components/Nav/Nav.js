@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import { withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import picture from '../../img/profile-pic.jpeg';
-import { Link } from 'react-router-dom';
+import resume from '../../docs/Resume.pdf';
 
 class Nav extends Component {
 
@@ -41,6 +42,11 @@ class Nav extends Component {
               <Link to="/availability" >
                 <FontAwesomeIcon icon={["far", "calendar-check"]} /> Availability
               </Link>
+            </li>
+            <li>
+              <a href={ resume } target="_blank" rel="noopener noreferrer" >
+                <FontAwesomeIcon icon={["far", "file-alt"]} /> Resume
+              </a>
             </li>
           </ul>
         </div>

@@ -11,6 +11,7 @@ import {
   faAnchor,
   faChartPie,
   faCheckSquare, 
+  faCode,
   faCoffee,
   faCog,
   faCopyright,
@@ -28,7 +29,6 @@ import {
   faStroopwafel,
   faTh,
   faUsers,
-  faCode,
 } from '@fortawesome/free-solid-svg-icons';
 
 // Regular svg's
@@ -36,6 +36,7 @@ import {
   faAddressBook,
   faCalendarAlt,
   faCalendarCheck,
+  faFileAlt,
   faHeart,
 } from '@fortawesome/free-regular-svg-icons';
 
@@ -62,6 +63,7 @@ icons.add(
   faCopyright,
   faCircle,
   faDatabase,
+  faFileAlt,
   faFire,
   faFortAwesome,
   faGithub,
