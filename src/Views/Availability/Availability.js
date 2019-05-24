@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from '../../components/Nav/Nav';
-import calendar from '../../img/calendar1.png';
+import calendar from '../../img/calendar.png';
 import './Availability.css';
 
 class Availability extends Component {
