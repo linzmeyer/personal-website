@@ -71,8 +71,9 @@ class About extends Component {
             <section className="info" >
               <h2>What I'm Looking For</h2>
               <ul>
-                <li>Software development on the East side of the Twin Cities. (Woodbury, Maplewood, Oakdale, etc.)</li>
+                <li>Software development on the East side of the Twin Cities. (St. Paul, Woodbury, Maplewood, Oakdale, etc.)</li>
                 <li>Okay with working remotely.</li>
+                <li>Work that challenges me to learn new technologies and development practices.</li>
                 <li>A place with a good onboarding process.</li>
                 <li>Friendly coworkers</li>
               </ul>
@@ -81,31 +82,30 @@ class About extends Component {
             <section className="info" >
               <h2>INFJ Personality Type</h2>
               <blockquote>
-                “Treat people as if they were what they ought to be and you help them to become what they are capable of being.” - Johann Wolfgang Von Goethe
+                <strong>“If you treat people as if they were what they ought to be, then you help them to become what they are capable of being.” - Johann Wolfgang Von Goethe</strong>
               </blockquote>
               <p>
-                I have spent a lot of time studying and understanding myself. I felt that <a href="https://www.16personalities.com/infj-personality" target="_blank" rel="noopener noreferrer">this personality test</a> did a great job at helping me understand some things about myself. It describes me as an advocate who loves helping others discover their true potential. Helping others to help themselves is a true joy of mine. "Nothing lights up advocates like creating a solution that changes people’s lives."
+                I have spent a lot of time understanding myself. I felt that <a href="https://www.16personalities.com/infj-personality" target="_blank" rel="noopener noreferrer" >this personality test</a> did a great job at helping me understand some things about myself. It describes me as an advocate who loves helping others discover their true potential. Helping others to help themselves is a true joy of mine.
               </p>
-              <h3>Source: NERIS Analytics</h3>
+              <p>Source: NERIS Analytics</p>
             </section>
 
             <section className="info" >
               <h2>Learning Preferences</h2>
               <ul>
                 <li>I am not partial to any one technology. I am willing to learn anyting to further a cause.</li>
-                <li>I learn best by reading (reliable) documentation.</li>
+                <li>I learn best by reading documentation and by observation.</li>
                 <li>I observe skilled practitioners and take notes on their methods.</li>
-                <li>I absorb information like a sponge when being mentored.</li>
-                <li>I ask questions only after I have explored the subject material myself or if I am completely stuck on a problem.</li>
+                <li>I ask questions after I have explored the subject material myself.</li>
               </ul>
             </section>
 
             <section className="info" >
               <h2>Strengths</h2>
               <ul>
+                <li><strong>Pattern Mapping</strong>: I'm often in a mode of inquiry and retrospection. Optimization is often in the forefront of my mind when working through a task. This is great for maintaining a strong and consistent software architecture.</li>
                 <li><strong>Gap Detection</strong>: Finding logical disconnects can be useful. I can help to find holes before the team falls into them.</li>
-                <li><strong>Pattern Mapping</strong>: Always in a mode of inquiry and retrospection. Optimization is often in the forefront of my mind when working through a task. Sometimes it's more important to work through the project and come back to refactor if time allows.</li>
-                <li><strong>Experimentation</strong>: I can help to find shortcuts with this exploratory attitude. I remain aware that exploration is not always in the best interest of the team, so I keep this tool tucked away until it's time to hammer out a truly difficult problem.</li>
+                <li><strong>Experimentation</strong>: When it's time to hammer out a truly difficult problem, my enthusiasm for exploration will come in handy. I like to discover what can be done with what we have.</li>
               </ul>
             </section>
           </div>

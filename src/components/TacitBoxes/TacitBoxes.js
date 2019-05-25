@@ -46,9 +46,10 @@ class TacitBoxes extends Component {
         >
           <FontAwesomeIcon icon="seedling" size='4x' />
           <h3>Intrinsic Motivation</h3>
-          <li>I aspire to inspire.</li>
-          <li>I want to help.</li>
-          <li>I want to learn/grow.</li>
+          Why?
+          <li>to help.</li>
+          <li>to learn.</li>
+          <li>to grow.</li>
         </div>
 
         <div
@@ -57,7 +58,7 @@ class TacitBoxes extends Component {
         >
           <FontAwesomeIcon icon={['far', 'calendar-alt']} size='4x' />
           <h3>Time Management</h3>
-          <p>I budget my time as if it were an unrenewable resource.</p>
+          <p>I treat time as the unrenewable resource that it is.</p>
         </div>
       </section>
     );

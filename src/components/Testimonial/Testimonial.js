@@ -12,6 +12,9 @@ class Testimonial extends Component {
           <blockquote>
             "Chase has efficiently worked in many process areas of our business. The result of these activities sets the tone for the success of the final product, and he is trusted as one of our key resources."
           </blockquote>
+          <p>
+            <strong>Jim Ascheman</strong>, BW Systems Inc..
+          </p>
           <h4>Jim Ascheman, BW Systems Inc.</h4>
         </div>
       );
@@ -57,7 +60,9 @@ class Testimonial extends Component {
           <blockquote>
             "Chase is very good about budgetting his time to track his progress thoughout a project. He manages to fullfill projects and project tasks in a timely manner."
           </blockquote>
-          <h4>Jim Ascheman, BW Systems Inc.</h4>
+          <p>
+            <strong>John Hail</strong>, Former Director of WET Program (Mesaland College).
+          </p>
         </div>
       );
     }

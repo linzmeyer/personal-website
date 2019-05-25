@@ -16,7 +16,7 @@ class Home extends Component {
             <section className="top-container" >
               <header className="showcase" >
                 <h1>Chase Linzmeyer</h1>
-                <p>Full stack web developer. Always learning, always growing.</p>
+                <p>Full stack software developer. Always learning, always growing.</p>
               </header>
             </section>
             

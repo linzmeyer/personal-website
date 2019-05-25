@@ -7,18 +7,13 @@ import {
 } from 'react-router-dom';
 import {connect} from 'react-redux';
 import Footer from '../Footer/Footer';
-// import ProtectedRoute from '../ProtectedRoute/ProtectedRoute'
 import About from '../../Views/About/About';
 import Home from '../../Views/Home/Home';
 import Contact from '../../Views/Contact/Contact';
-import './App.css';
 import Availability from '../../Views/Availability/Availability';
+import './App.css';
 
 class App extends Component {
-
-  // componentDidMount () {
-  //   this.props.dispatch({type: 'FETCH_USER'})
-  // }
 
   render() {
     return (

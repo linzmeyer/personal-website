@@ -17,7 +17,7 @@ class Availability extends Component {
                 <h1>Current Availability</h1>
                 <ul>
                   <li>Looking for opportunities!</li>
-                  <li>Will be available to start work Monday, July 1 2019.</li>
+                  <li>Will be available to start work Monday, <strong>July 1 2019</strong>.</li>
                   <li><Link to="/contact" >Contact me</Link> to help on your upcoming projects.</li>
                 </ul>
                 <img src={ calendar } alt="calendar" className="calendar" ></img>
