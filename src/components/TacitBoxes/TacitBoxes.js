@@ -17,7 +17,7 @@ class TacitBoxes extends Component {
           onClick={ () => this.setTestimonial( 'SET_TO_TEAMWORK', 'teamwork' ) }
         >
           <FontAwesomeIcon icon="people-carry" size='4x' />
-          <h3>Teamwork</h3>
+          <h3>Team</h3>
           <p>... If you want to go far, go together.</p>
         </div>
 
